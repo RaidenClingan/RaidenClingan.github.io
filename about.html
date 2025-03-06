@@ -4,80 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Ultimate Website</title>
-      <style>
-        h1 {
-            text-align: center;
+    <style>
+        h3 {
+            background-color: #ffffff;
+            color: rgb(0, 0, 0);
+            width: 45%;
         }
-
+        h2 {
+            color: rgb(195, 0, 255);
+        }
+        p {
+            color: rgb(255, 255, 255);
+        }
+        a {
+            color: red;
+        }
         #content {
+            
             margin: auto;
             width: 80%;
         }
-
-        #linksbar {
-            display: flex;
-            justify-content: space-around;
-            background-color: #ff3232;
-            margin-bottom: 5px;
-        }
-
-        #linksbar a {
-            background-color: #ffe44e;
-            margin: 5px;
-            padding: 5px;
-            border-radius: 5px;
-            color: #ff0000;
-            text-decoration: none;
-
-        }
-
-        #linksbar a:hover {
-            background-color: #009999;
-        }
-
-        #flexy {
-            display: flex;
-            justify-content: space-between;
-        }
-
-        #sidebar {
-            background-color: #ff0000;
+        h4 {
             width: 20%;
+            color: white;
         }
-
-        #main {
-            background-color: #fbff01;
-            width: 70%;
+        h1 {
+            text-align: center;
+            background-color: #8400ff;
+            color: #fff;
+            width: 50%;
         }
-
-        div {
-            border: 1px solid rgb(255, 102, 0);
+        .blogpost {
+            background-color: #000000;
+            overflow: auto;
+            padding: 5px;
+            border: black;
+            width: 50%;
+        }
+        .blogpost img {
+            width: 20%;
+            float: left;
+            margin: 0px 10px 10px 0px;
+            text-align: center;
+        }
+        .blogpost h1 {
+            background-color: inherit;
+            font-size: 1.5em;
+        }
+        .blogpost p {
+            text-align: justify;
         }
     </style>
 </head>
-<link rel="stylesheet" href="CSS/light.css">
 <body>
     <div id="content">
-        <h1>HI! MY NAME IS RAIDEN</h1>
-        <div id="linksbar"></div>
-        <a href="https://eelslap.com/">SLAP EM</a>
-    </div>
-      <div>
-        <div id="sidebar">AAAAAAAAAAAAAAAAAAAAAAAAAAHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH!!!!!!!!!!!!!!!!!!!!!!!!!!!!</div>
-        <div id="main">Hey, this is a little bit of things about me.</div>
-        <div id='help'>
-            Among Us is a 2018 online multiplayer social deduction game developed and published by American game studio Innersloth. 
-            The game allows for cross-platform play; it was released on iOS and Android devices in June 2018 and on Windows later that year in November. 
-            It was ported to the Nintendo Switch in December 2020 and on the PlayStation 4, PlayStation 5, Xbox One and Xbox Series X/S in December 2021. 
-            A virtual reality adaptation, Among Us VR, was released on November 10, 2022.
-            Among Us takes place in space-themed settings where players are colorful, armless cartoon astronauts. Each player takes on one of two roles: most are Crewmates, but a small number are Impostors. 
-            Crewmates work to complete assigned tasks in the game while identifying and voting out suspected Impostors (who appear identical to Crewmates) using social deduction, 
-            while Impostors have the objective of killing the Crewmates. The game was inspired by the party game Mafia and the science fiction horror film The Thing.
-            While the game was initially released in 2018 to little mainstream attention, it received a massive rise in popularity in 2020 due to many Twitch streamers and YouTubers 
-            playing it during the COVID-19 pandemic. It received favorable reviews from critics for fun and entertaining gameplay. The game and its stylized characters 
-            have been the subject of various internet memes.
+        <h1 id="banner">Hello! My Name Is Raiden</h1>
+        <div class="blogpost">
+            <h2>What I do</h2>
+            <h3>I go to York County School of Technology.</h3>
+            <img src="download (1).jpg">
+            <h3></h3>
         </div>
-      </div>
+        <div class="blogpost">
+            <h2>Games I Play</h2>
+            <img src="download (4).jpg">
+            <img src="download (5).jpg">
+            <img src="download (3).jpg">
+            <img src="download (2).jpg">
+        </div>
+        <div class="blogpost">
+            <h2>Things I Enjoy</h2>
+                <p>Video Games, Basketball, and Anime</p>
+                <img src="download (8).jpg">
+                <img src="download (7).jpg">
+                <img src="download (6).jpg">
+        </div>
+        <div class="blogpost">
+            <h2>Things I Hate</h2>
+                <p>Pineapple on Pizza</p>
+                <p>Country Music</p>
+                <a>TAYLOR SWIFT</a>
+        </div>
     </div>
 </body>
 </html>
