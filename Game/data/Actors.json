@@ -1,0 +1,12 @@
+[
+null,
+{"id":1,"battlerName":"Trey Battler","characterIndex":0,"characterName":"Trey Walk","classId":7,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"Trey Face","traits":[],"initialLevel":99,"maxLevel":99,"name":"Trey","nickname":"Trey","note":"","profile":""},
+{"id":2,"battlerName":"Actor3_5","characterIndex":4,"characterName":"Actor3","classId":8,"equips":[1,0,0,9,0],"faceIndex":4,"faceName":"Actor3","traits":[],"initialLevel":99,"maxLevel":99,"name":"Rio","nickname":"","note":"","profile":""},
+{"id":3,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
+{"id":4,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
+{"id":5,"battlerName":"Clayton Battler","characterIndex":0,"characterName":"Clayton Walk","classId":5,"equips":[0,0,0,0,85],"faceIndex":0,"faceName":"Clayton Face","traits":[{"code":51,"dataId":11,"value":1},{"code":43,"dataId":8,"value":1}],"initialLevel":99,"maxLevel":99,"name":"Clayton","nickname":"Clayton","note":"","profile":"He's Just a chill guy"},
+{"id":6,"battlerName":"Rose battler","characterIndex":0,"characterName":"Rose walking","classId":4,"equips":[31,0,65,5,0],"faceIndex":0,"faceName":"Rose Face","traits":[{"code":51,"dataId":2,"value":1},{"code":43,"dataId":6,"value":1},{"code":52,"dataId":4,"value":1}],"initialLevel":99,"maxLevel":99,"name":"Rose","nickname":"","note":"","profile":""},
+{"id":7,"battlerName":"","characterIndex":0,"characterName":"Hans Walking","classId":5,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"Hans Face","traits":[],"initialLevel":1,"maxLevel":99,"name":"Hans the Bank Teller","nickname":"","note":"","profile":""},
+{"id":8,"battlerName":"","characterIndex":0,"characterName":"Nature_mv","classId":9,"equips":[0,41,0,3,0],"faceIndex":0,"faceName":"Nature_mv","traits":[],"initialLevel":1,"maxLevel":99,"name":"Butter Dog","nickname":"Butter Dog","note":"","profile":""},
+{"id":9,"battlerName":"Clayton Battler","characterIndex":0,"characterName":"Clayton Walk","classId":5,"equips":[0,0,0,0,85],"faceIndex":0,"faceName":"Clayton Face","traits":[{"code":51,"dataId":11,"value":1},{"code":43,"dataId":8,"value":1}],"initialLevel":99,"maxLevel":99,"name":"Clayton","nickname":"Clayton","note":"","profile":"He's Just a chill guy"}
+]
